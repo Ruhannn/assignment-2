@@ -200,8 +200,8 @@ nav {
 }
 .broken-img {
   border-radius: 16px;
-width: 300px;
-height: 438px;
+  width: 300px;
+  height: 438px;
 }
 .games-box img {
   margin-bottom: 10px;
@@ -255,4 +255,46 @@ height: 438px;
 }
 .games-box:hover .overlay {
   opacity: 0.8;
+}
+/* main section */
+.main-container {
+  display: flex;
+  margin-top: 120px;
+  justify-content: space-around;
+  text-align: right;
+  align-items: center;
+}
+.main-title {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+.main-title-2 {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.small-image {
+  position: absolute;
+  top: 2450px;
+  left: 900px;
+}
+.main-images {
+  display: flex;
+}
+.main-container-2 {
+  display: flex;
+  margin-top: 120px;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  text-align: left;
+  align-items: center;
+}
+.small-image-2{
+  position: absolute;
+  top: 3310px;
+  right: 900px; 
 }
