@@ -293,8 +293,112 @@ nav {
   text-align: left;
   align-items: center;
 }
-.small-image-2{
+.small-image-2 {
   position: absolute;
   top: 3310px;
-  right: 900px; 
+  right: 900px;
+}
+/* game category styles */
+.game-category-container {
+  margin-top: 300px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 260px;
+  height: 75px;
+  background-color: rgb(255, 248, 248);
+  gap: 60px;
+  padding: 0px 10px;
+  border: 1px solid transparent;
+  transition: all 0.6s ease-in-out;
+}
+.category h3 {
+  color: #0b0223;
+  font-size: 20px;
+  font-weight: 600;
+}
+.category:hover {
+  border: 1px solid #ff42a5;
+  transform: scale(1.1);
+}
+.category:hover h3 {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.game-category-container {
+  display: flex;
+  justify-content: center;
+}
+.category-content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+/* footer styles */
+footer {
+  background: #0b0223;
+  margin-top: 50px;
+}
+.footer-logo {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.footer-title {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  gap: 100px;
+}
+.footer-content li {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  list-style: none;
+}
+.footer-social {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+}
+.footer-social img {
+  height: 40px;
+}
+.footer-policy li {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  list-style: none;
+}
+.footer-policy {
+  margin-top: 60px;
+  gap: 60px;
+  display: flex;
+  justify-content: center;
+}
+.footer-description{
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 40px;
 }
