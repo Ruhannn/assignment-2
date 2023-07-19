@@ -125,7 +125,11 @@ nav {
 }
 /* subheader styles */
 .subheader {
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
 }
 
 .subheader-container {
@@ -133,7 +137,6 @@ nav {
   align-items: center;
   text-align: right;
   margin: 0px 240px;
-
 }
 .subheader-title {
   font-size: 48px;
@@ -164,11 +167,92 @@ nav {
   font-size: 32px;
   font-weight: 700;
 }
-.subheader-img{
+.subheader-img {
   max-width: 100%;
   height: auto;
 }
-.hide{
+.hide {
   display: none;
 }
+/* Online Games styles */
+.games-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 240px;
+  gap: 24px;
+}
+.games-title {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+.games-title-2 {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+.titles-of-games {
+  text-align: center;
+  margin: 40px;
+}
+.borken-img {
+  border-radius: 16px;
+}
+.games-box img {
+  margin-bottom: 10px;
+}
+.games-box p {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* the watch now effect */
+.games-box{
+  position: relative;
+  box-shadow: 0 10px 20px rgb(40, 40, 40);
+  border-radius: 16px;
+}
+.games-box img{
+  height: 100%;
+  width: 100%;
+}
+.overlay{
+  border-radius: 16px;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+opacity: 0;
+transition: all 0.5s ease-in-out;
+background: black;
+cursor: pointer;
+border: 2px #f948b2 solid;
+}
+.overly-content {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: white;
+}
+.overly-content img{
+  width: 45px;
+}
+.overly-content h3{
+font-size: 20px;
+font-weight: 600;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.games-box:hover .overlay {
+opacity: 0.8;
+}
+
 
