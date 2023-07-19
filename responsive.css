@@ -85,4 +85,47 @@ width: 300px;
 .games-box p{
   font-size: 10px;
 }
+.main-container {
+  display: flex;
+  text-align: center;
+margin-top: 40px;
+  flex-direction: column;
+}
+.main-container-2 {
+  display: flex;
+  text-align: center;
+margin-top: 40px;
+  flex-direction: column;
+}
+.main-title-2{
+  font-size: 27px;
+}
+.main-title{
+  margin-top: 70px;
+  font-size: 25px;
+}
+.main-images img{
+width: 300px;
+margin-top: 25px;
+}
+.small-image {
+  position: absolute;
+  top: 3800px;
+  left: 20px;
+}
+.main-images .small-image{
+  width: 120px;
+}
+.main-images-2 img{
+  width: 300px;
+  margin-top: 25px;
+  }
+  .small-image-2{
+    position: absolute;
+top: 4350px;
+    right: 40px; 
+  }
+  .main-images-2 .small-image-2{
+    width: 120px;
+  }
 }
