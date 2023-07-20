@@ -211,7 +211,7 @@ nav {
   font-size: 20px;
   font-weight: 500;
 }
-/* the watch now effect */
+/* the play now effect */
 .games-box {
   position: relative;
 
@@ -317,6 +317,15 @@ nav {
   border: 1px solid transparent;
   transition: all 0.6s ease-in-out;
 }
+.game-category-container {
+  display: flex;
+  justify-content: space-around;
+}
+.category-content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
 .category h3 {
   color: #0b0223;
   font-size: 20px;
@@ -331,15 +340,6 @@ nav {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-.game-category-container {
-  display: flex;
-  justify-content: center;
-}
-.category-content {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
 }
 /* footer styles */
 footer {
@@ -377,6 +377,13 @@ footer {
   justify-content: center;
   gap: 60px;
   align-items: center;
+}
+.footer-social img {
+  transform: scale(1);
+  transition: all .7s ease-out;
+}
+.footer-social img:hover {
+  transform: scale(1.3);
 }
 .footer-social img {
   height: 40px;
